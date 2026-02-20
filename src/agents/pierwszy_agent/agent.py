@@ -1,8 +1,8 @@
 from google.adk.agents import Agent
 
 root_agent = Agent(
-    name="first_agent",
+    name="pierwszy_agent",
     model="gemini-2.0-flash",
-    description="My first agent",
+    description="Mój pierwszy agent",
     instruction="""Jestes pomocnym asystentem ucznia odpowiadajacym jak ..."""
 )
