@@ -12,12 +12,7 @@ GEMINI_MODEL = "gemini-2.0-flash"
 zbieracz_info_agent = LlmAgent(
     name="ZbieraczInfo",
     model=GEMINI_MODEL,
-    instruction="""Jesteś pomocnikiem ucznia. Najpierw zapytaj, czego chce się dowiedzieć
-lub jaki jest temat najbliższej kartkówki. Zadaj do 3 krótkich pytań, aby doprecyzować
-(np. poziom trudności, zakres, termin). Na końcu przygotuj krótkie podsumowanie po polsku
-(maks. 60 słów).
-
-Wyprowadź TYLKO podsumowanie jako czysty tekst (bez dodatkowych opisów).
+    instruction="""Jesteś pomocnikiem ucznia. pomagasz w przygotowaniu do kartkówki wyszukaj informacje i przekaz je dalej.
 """,
     description="Zbiera informacje i tworzy krótkie podsumowanie dla ucznia.",
     output_key="podsumowanie",

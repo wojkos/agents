@@ -1,0 +1,1 @@
+from .quiz import tworca_pytan_agent
