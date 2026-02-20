@@ -13,7 +13,7 @@ instrukcji oraz kluczy wyjściowych.
 
 from google.adk.agents import SequentialAgent
 
-from .subagents.colector import zbieracz_info_agent
+from .subagents.collector import zbieracz_info_agent
 from .subagents.flashcards import tworca_fiszek_agent
 from .subagents.quiz import tworca_pytan_agent
 
